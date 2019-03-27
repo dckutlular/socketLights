@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <meta charset="UTF-8" />
+    <title>Light me Up</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+          <div class="row no-gutters">
+              <div class="col-sm-6 col-md-3 col-lg-2 offset-lg-1" >
+                <div class="lamp" id="1">
+                  <p class="text-center">
+                    <img
+                      class="text-center"
+                      src="rsz_16f49629ce7cd4afee2e6f34e3bf05f39.png"
+                      alt="Card image cap"
+                    />
+                  </p>
+                  <div class="card-body">
+                    <p class="card-text text-center">LIGHTING 1</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="lamp" id="2">
+                  <p class="text-center">
+                    <img
+                      class="text-center"
+                      src="rsz_16f49629ce7cd4afee2e6f34e3bf05f39.png"
+                      alt="Card image cap"
+                    />
+                  </p>
+                  <div class="card-body">
+                    <p class="card-text text-center">LIGHTING 2</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="lamp" id="3">
+                  <p class="text-center">
+                    <img
+                      class="text-center"
+                      src="rsz_16f49629ce7cd4afee2e6f34e3bf05f39.png"
+                      alt="Card image cap"
+                    />
+                  </p>
+                  <div class="card-body">
+                    <p class="card-text text-center">LIGHTING 3</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="lamp" id="4">
+                  <p class="text-center">
+                    <img
+                      class="text-center"
+                      src="rsz_16f49629ce7cd4afee2e6f34e3bf05f39.png"
+                      alt="Card image cap"
+                    />
+                  </p>
+                  <div class="card-body">
+                    <p class="card-text text-center">LIGHTING 4</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="lamp" id="5">
+                  <p class="text-center">
+                    <img
+                      class="text-center"
+                      src="rsz_16f49629ce7cd4afee2e6f34e3bf05f39.png"
+                      alt="Card image cap"
+                    />
+                  </p>
+                  <div class="card-body">
+                    <p class="card-text text-center">LIGHTING 5</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-2 offset-lg-1">
+                <div class="lamp" id="6">
+                  <p class="text-center">
+                    <img
+                      class="text-center"
+                      src="rsz_16f49629ce7cd4afee2e6f34e3bf05f39.png"
+                      alt="Card image cap"
+                    />
+                  </p>
+                  <div class="card-body">
+                    <p class="card-text text-center">LIGHTING 6</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="lamp" id="7">
+                  <p class="text-center">
+                    <img
+                      class="text-center"
+                      src="rsz_16f49629ce7cd4afee2e6f34e3bf05f39.png"
+                      alt="Card image cap"
+                    />
+                  </p>
+                  <div class="card-body">
+                    <p class="card-text text-center">LIGHTING 7</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="lamp" id="8">
+                  <p class="text-center">
+                    <img
+                      class="text-center"
+                      src="rsz_16f49629ce7cd4afee2e6f34e3bf05f39.png"
+                      alt="Card image cap"
+                    />
+                  </p>
+                  <div class="card-body">
+                    <p class="card-text text-center">LIGHTING 8</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="lamp" id="9">
+                  <p class="text-center">
+                    <img
+                      class="text-center"
+                      src="rsz_16f49629ce7cd4afee2e6f34e3bf05f39.png"
+                      alt="Card image cap"
+                    />
+                  </p>
+                  <div class="card-body">
+                    <p class="card-text text-center">LIGHTING 9</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="lamp" id="10">
+                  <p class="text-center">
+                    <img
+                      class="text-center"
+                      src="rsz_16f49629ce7cd4afee2e6f34e3bf05f39.png"
+                      alt="Card image cap"
+                    />
+                  </p>
+                  <div class="card-body">
+                    <p class="card-text text-center">LIGHTING 10</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-2 offset-lg-3">
+                <div class="lamp" id="11">
+                  <p class="text-center">
+                    <img
+                      class="text-center"
+                      src="rsz_16f49629ce7cd4afee2e6f34e3bf05f39.png"
+                      alt="Card image cap"
+                    />
+                  </p>
+                  <div class="card-body">
+                    <p class="card-text text-center">LIGHTING 11</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-2 offset-lg-2">
+                <div class="lamp" id="12">
+                  <p class="text-center">
+                    <img
+                      class="text-center"
+                      src="rsz_16f49629ce7cd4afee2e6f34e3bf05f39.png"
+                      alt="Card image cap"
+                    />
+                  </p>
+                  <div class="card-body">
+                    <p class="card-text text-center">LIGHTING 12</p>
+                  </div>
+                </div>
+              </div>
+            </div></br></br>
+            <button type="button" id="openAll" class="btn btn-success">
+              Open All
+            </button>
+            <button type="button" id="closeAll" class="btn btn-danger">
+              Close All
+            </button>
+    <script src="/light.js"></script>
+  </body>
+</html>

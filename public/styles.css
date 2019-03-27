@@ -1,0 +1,19 @@
+.lamp {
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  height: 33vh;
+}
+
+p {
+  color: red;
+  font-weight: bold;
+  height: 10vh;
+  font-size: 3vh;
+}
+img {
+  height: 15vh;
+}
+/* .test {
+  height: 100vh;
+} */
